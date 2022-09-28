@@ -1,0 +1,631 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Men shirt magic cotton with digital print",
+      "price": "₹1,199.00",
+      "afterPrice":"₹799.00",
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "image": "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-09-at-1.27.07-AM-370x370.jpeg",
+      "rating": {
+      "rate": 3.9,
+      "count": 120
+      }
+      },
+      {
+      "id": 2,
+      "title": "Men shirt magic cotton with digital print ",
+      "price": "₹1,199.00",
+      "afterPrice":"₹795.00",
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "category": "men's clothing",
+      "image": "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-09-at-1.27.04-AM1-370x370.jpeg",
+      "rating": {
+      "rate": 4.1,
+      "count": 259
+      }
+      },
+      {
+      "id": 3,
+      "title": "Men shirt magic cotton with digital print",
+      "price": "₹1,199.00",
+      "afterPrice":"₹796.00",
+      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "category": "men's clothing",
+      "image": "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-09-at-1.27.04-AM-370x370.jpeg",
+      "rating": {
+      "rate": 4.7,
+      "count": 500
+      }
+      },
+      {
+      "id": 4,
+      "title": "FINACHI Ultra Soft Inner Boxer Grey",
+      "price": "₹650.00",
+      "afterPrice":"₹325.00",
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "category": "men's clothing",
+      "image": "https://www.uboric.com/wp-content/uploads/2022/08/616tnRRJu7L._UL1500_-670x670.jpg",
+      "rating": {
+      "rate": 2.1,
+      "count": 430
+      }
+      },
+      {
+          "id": 5,
+          "title": "FINACHI Ultra Soft Inner Boxer Grey",
+          "price": "₹650.00",
+          "afterPrice":"₹325.00",
+          "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+          "category": "men's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/61p1YH58JAL._UL1500_-670x670.jpg",
+          "rating": {
+          "rate": 2.1,
+          "count": 430
+          }
+       },
+       {
+          "id": 6,
+          "title": "FINACHI Ultra Soft Inner Boxer Grey",
+          "price": "₹650.00",
+          "afterPrice":"₹325.00",
+          "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+          "category": "men's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/61lZ0tmFMWL._UL1500_-370x370.jpg",
+          "rating": {
+          "rate": 2.1,
+          "count": 430
+          }
+       },
+  
+       {
+          "id": 7,
+          "title": "FINACHI Ultra Soft T-Shirt Navy Grey",
+          "price": "₹850.00",
+          "afterPrice":"₹425.00",
+          "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+          "category": "men's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/61wHli5TQuL._UL1500_-670x670.jpg",
+          "rating": {
+          "rate": 2.1,
+          "count": 430
+          }
+       },
+  
+       {
+          "id": 8,
+          "title": "FINACHI Ultra Soft T-Shirt Navy Grey",
+          "price": "₹850.00",
+          "afterPrice":"₹425.00",
+          "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+          "category": "men's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/61nB1ZuhBCL._UL1500_-670x670.jpg",
+          "rating": {
+          "rate": 2.1,
+          "count": 430
+          }
+       },
+  
+       {
+          "id": 9,
+          "title": "FINACHI Cotton Trunk Dino",
+          "price": "₹599.00",
+          "afterPrice":"₹299.00",
+          "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+          "category": "men's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/61S5eEYU3ZL._UL1500_-1-670x670.jpg",
+          "rating": {
+          "rate": 2.1,
+          "count": 30
+          }
+       },
+       {
+          "id": 10,
+          "title": "FINACHI Cotton Brief dino",
+          "price": "₹499.00",
+          "afterPrice":"₹249.00",
+          "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+          "category": "men's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/71nSQGvvUZL._UL1500_-370x370.jpg",
+          "rating": {
+          "rate": 2.1,
+          "count": 30
+          }
+       },
+       {
+          "id": 11,
+          "title": "FINACHI Ultra Soft Modal Trunk red color",
+          "price": "₹499.00",
+          "afterPrice":"₹249.00",
+          "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+          "category": "men's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/51CkOdYvZvL._UL1000_-670x670.jpg",
+          "rating": {
+          "rate": 2.1,
+          "count": 30
+          }
+       },
+       {
+          "id": 12,
+          "title": "Men shirt magic cotton with digital print",
+          "price": "₹1,199.00",
+          "afterPrice":"₹795.00",
+          "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+          "category": "men's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-06-15-at-11.56.47-AM1-670x666.jpeg",
+          "rating": {
+          "rate": 4.1,
+          "count": 259
+          }
+      },
+      {
+          "id": 13,
+          "title": "Men shirt magic cotton with digital print",
+          "price": "₹1,199.00",
+          "afterPrice":"₹795.00",
+          "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+          "category": "men's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-06-15-at-11.56.47-AM.jpeg",
+          "rating": {
+          "rate": 4.1,
+          "count": 259
+          }
+      },
+      {
+      "id": 14,
+      "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+      "price": "₹1,199.00",
+      "afterPrice":"₹795.00",
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+      "rate": 4.6,
+      "count": 400
+      }
+      },
+      {
+      "id": 15,
+      "title": "Solid Gold Petite Micropave ",
+      "price": "₹2,199.00",
+      "afterPrice":"₹1,199.00",
+      "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+      "category": "jewelery",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKJxES133Ihs71pjNGsVZeTrlwZBtMg_0pg61IfVfxC4Xnv2CbWV1SWCwDVmEA4M_cHb4&usqp=CAU",
+      "rating": {
+      "rate": 3.9,
+      "count": 70
+      }
+      },
+      {
+          "id": 16,
+          "title": "Libra silver necklace ",
+          "price": "₹2,199.00",
+          "afterPrice":"₹1,199.00",
+          "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+          "category": "jewelery",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_18-34-39-670x670.jpg",
+          "rating": {
+          "rate": 3.9,
+          "count": 70
+          }
+      },
+      {
+          "id": 17,
+          "title": "Hexagone silver pedant necklace",
+          "price": "₹2,199.00",
+          "afterPrice":"₹1,199.00",
+          "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+          "category": "jewelery",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_14-30-17-670x670.jpg",
+          "rating": {
+          "rate": 3.9,
+          "count": 70
+          }
+      },
+      {
+      "id": 18,
+      "title": "White Gold Plated Princess",
+      "price": "₹7,199.00",
+      "afterPrice":"₹3,199.00",
+      "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+      "category": "jewelery",
+      "image": "https://i.pinimg.com/736x/26/dc/5c/26dc5c4abdd25144de9624c3ddaf01f0.jpg",
+      "rating": {
+      "rate": 3,
+      "count": 12
+      }
+      },
+      {
+      "id": 19,
+      "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+      "price": "₹3,199.00",
+      "afterPrice":"₹1,499.00",
+      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+      "category": "jewelery",
+      "image": "https://voodoobodyjewellery.com.au/wp-content/uploads/2014/04/GRR.jpg",
+      "rating": {
+      "rate": 1.9,
+      "count": 100
+      }
+      },
+      {
+          "id": 20,
+          "title": "PHILIPS HP8643/46 Straightener (Pink/black)",
+          "price": "₹2,295.00",
+          "afterPrice":"₹1,825.00",
+          "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+          "category": "electronics",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/51RgsQbXEmL._SL1500_-670x838.jpg",
+          "rating": {
+          "rate": 1.9,
+          "count": 100
+          }
+      },
+      {
+          "id": 21,
+          "title": "Mixer Grinder HL7699/00",
+          "price": "₹5,695.00",
+          "afterPrice":"₹4,799.00",
+          "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+          "category": "electronics",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/2-3-670x835.png",
+          "rating": {
+          "rate": 1.9,
+          "count": 100
+          }
+      },
+      {
+          "id": 22,
+          "title": "Philips AC1217/20 Air Purifier (White)",
+          "price": "₹12,995.00",
+          "afterPrice":"₹10,950.00",
+          "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+          "category": "electronics",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/1-77-670x838.jpg",
+          "rating": {
+          "rate": 1.9,
+          "count": 100
+          }
+      },
+      {
+          "id": 23,
+          "title": "Philips Air Purifier (AC6609/20, White)",
+          "price": "₹74,995.00",
+          "afterPrice":"₹59,999.00",
+          "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+          "category": "electronics",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/1-80.jpg",
+          "rating": {
+          "rate": 1.9,
+          "count": 100
+          }
+      },
+      {
+          "id": 24,
+          "title": "Philips Amaze HL7576/00 600-Watt Juicer Mixer...",
+          "price": "₹5,195.00",
+          "afterPrice":"₹4,021.00",
+          "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+          "category": "electronics",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/1-19-670x474.jpg",
+          "rating": {
+          "rate": 1.9,
+          "count": 100
+          }
+      },
+      {
+          "id": 25,
+          "title": "Philips Beard Trimmer (BT3203/15) ...",
+          "price": "₹2,790.00",
+          "afterPrice":"₹2,649.00",
+          "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+          "category": "electronics",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/1-10-670x518.jpg",
+          "rating": {
+          "rate": 1.9,
+          "count": 100
+          }
+      },
+      {
+          "id": 26,
+          "title": "Philips BG3005/15 Cordless Bodygroomer –.",
+          "price": "₹2,490.00",
+          "afterPrice":"₹2,070.00",
+          "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+          "category": "electronics",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/41l26n7-krS._SL1000_-670x670.jpg",
+          "rating": {
+          "rate": 1.9,
+          "count": 100
+          }
+      },
+      {
+      "id": 27,
+      "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+      "price": "₹2,490.00",
+      "afterPrice":"₹2,070.00",
+      "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "rating": {
+      "rate": 3.3,
+      "count": 203
+      }
+      },
+      {
+      "id": 28,
+      "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+      "price": "₹2,490.00",
+      "afterPrice":"₹2,070.00",
+      "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "rating": {
+      "rate": 2.9,
+      "count": 470
+      }
+      },
+      {
+      "id": 29,
+      "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+      "price": "₹2,490.00",
+       "afterPrice":"₹2,070.00",
+      "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "rating": {
+      "rate": 4.8,
+      "count": 319
+      }
+      },
+      {
+      "id": 30,
+      "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+      "price": "₹2,490.00",
+      "afterPrice":"₹2,070.00",
+      "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+      "rating": {
+      "rate": 4.8,
+      "count": 400
+      }
+      },
+      {
+      "id": 31,
+      "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+      "price": "₹2,490.00",
+      "afterPrice":"₹2,070.00",
+      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+      "rating": {
+      "rate": 2.9,
+      "count": 250
+      }
+      },
+      {
+      "id": 32,
+      "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+      "price": "₹10,490.00",
+      "afterPrice":"₹7,070.00",
+      "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "rating": {
+      "rate": 2.2,
+      "count": 140
+      }
+      },
+      {
+          "id": 33,
+          "title": "“Amazing “Black Tank White Capri...",
+          "price": "₹890.00",
+          "afterPrice":"₹499.00",
+          "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+          "category": "women's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/Black-Tank-White-Capri-Lagging-Affordable-Workout-Set.jpg",
+          "rating": {
+          "rate": 2.6,
+          "count": 235
+          }
+      },
+      {
+          "id": 34,
+          "title": "“Black Magic” Very Sexy Sheer...",
+          "price": "₹1,299.00",
+          "afterPrice":"₹999.00",
+          "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+          "category": "women's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/Black-Magic-very-sexy-sheer-babydoll-nightwear.jpg",
+          "rating": {
+          "rate": 2.6,
+          "count": 235
+          }
+      },
+      {
+          "id": 35,
+          "title": "“Women’s” Sexy Self Design...",
+          "price": "₹999.00",
+          "afterPrice":"₹754.00",
+          "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+          "category": "women's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/Untitled-1-copy-1-1.jpg",
+          "rating": {
+          "rate": 2.6,
+          "count": 235
+          }
+      },
+      {
+          "id": 36,
+          "title": "2 pack fully transparent sexy panties",
+          "price": "₹899.00",
+          "afterPrice":"₹499.00",
+          "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+          "category": "women's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/2-pack-fully-transparent-panties4.jpg",
+          "rating": {
+          "rate": 2.6,
+          "count": 235
+          }
+      },
+      {
+          "id": 37,
+          "title": "Black Full Cotton Patiala Salwar",
+          "price": "₹699.00",
+          "afterPrice":"₹499.00",
+          "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+          "category": "women's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/Black-Full-Cotton-Patiala-Salwar-1.jpg",
+          "rating": {
+          "rate": 2.6,
+          "count": 235
+          }
+      },
+      {
+          "id": 38,
+          "title": "Exquisite Crotchless bodystocking bodysuit",
+          "price": "₹1,899.00",
+          "afterPrice":"₹899.00",
+          "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+          "category": "women's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/Exquisite-Crotchless-bodystocking-bodysuit.jpg",
+          "rating": {
+          "rate": 2.6,
+          "count": 235
+          }
+      },
+      {
+          "id": 39,
+          "title": "Full Cotton Green Patiala Salwar",
+          "price": "₹699.00",
+          "afterPrice":"₹499.00",
+          "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+          "category": "women's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/Full-Cotton-Green-Patiala-Salwar-1.jpg",
+          "rating": {
+          "rate": 2.6,
+          "count": 235
+          }
+      },
+      {
+          "id": 40,
+          "title": "Full Cotton Pink Patiala Salwar",
+          "price": "₹699.00",
+          "afterPrice":"₹499.00",
+          "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+          "category": "women's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/Full-Cotton-Pink-Patiala-Salwar-1.jpg",
+          "rating": {
+          "rate": 2.6,
+          "count": 235
+          }
+      },
+      {
+          "id": 41,
+          "title": "Mustard Coloured Legging",
+          "price": "₹520.00",
+          "afterPrice":"₹389.00",
+          "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+          "category": "women's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/Mustard-Coloured-Legging-1.jpg",
+          "rating": {
+          "rate": 2.6,
+          "count": 235
+          }
+      },
+      {
+          "id": 42,
+          "title": "Mustard Coloured Legging",
+          "price": "₹520.00",
+          "afterPrice":"₹389.00",
+          "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+          "category": "women's clothing",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/08/Orange-Coloured-Legging-2.jpg",
+          "rating": {
+          "rate": 2.6,
+          "count": 235
+          }
+      },
+      {
+      "id": 43,
+      "title": "489 White shoes",
+      "price": "₹1,520.00",
+       "afterPrice":"₹789.00",
+      "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+      "category": "footwear",
+      "image": "https://www.uboric.com/wp-content/uploads/2022/09/b5tvy_512_webp_75.jpg",
+      "rating": {
+      "rate": 2.6,
+      "count": 235
+      }
+      },
+      {
+          "id": 44,
+          "title": "Aadab Fabulous Men Casual Shoes",
+          "price": "₹2,520.00",
+           "afterPrice":"₹1,89.00",
+          "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+          "category": "footwear",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/09/qulxc_512_webp_75.jpg",
+          "rating": {
+          "rate": 2.6,
+          "count": 235
+          }
+      },
+      {
+          "id": 45,
+          "title": "Air jordan casual shoes",
+          "price": "₹2,399.00",
+           "afterPrice":"₹1,189.00",
+          "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+          "category": "footwear",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/09/ftaac_512_webp_751.jpg",
+          "rating": {
+          "rate": 2.6,
+          "count": 235
+          }
+      },
+      {
+          "id": 46,
+          "title": "Black Solid Boat Shoes For Men",
+          "price": "₹1,959.00",
+           "afterPrice":"₹989.00",
+          "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+          "category": "footwear",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/09/i5vui_512_webp1.jpg",
+          "rating": {
+          "rate": 2.6,
+          "count": 235
+          }
+      },
+      {
+          "id": 47,
+          "title": "High vision sports shoes in black",
+          "price": "₹2,159.00",
+           "afterPrice":"₹1,489.00",
+          "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+          "category": "footwear",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/09/yhlju_512_webp_75.jpg",
+          "rating": {
+          "rate": 2.6,
+          "count": 235
+          }
+      },
+      {
+          "id": 48,
+          "title": "Man sport shoes in sky",
+          "price": "₹2,159.00",
+           "afterPrice":"₹1,489.00",
+          "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+          "category": "footwear",
+          "image": "https://www.uboric.com/wp-content/uploads/2022/09/r66cr_512_webp_75.jpg",
+          "rating": {
+          "rate": 2.6,
+          "count": 235
+          }
+      }
+  ]
+}
