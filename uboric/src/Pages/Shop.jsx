@@ -17,6 +17,7 @@ function Shopping(){
     const [products,setProducts]=useState({})
     const [isLoading,setisLoading]= useState(false)
     const [limit,setlimit] =useState(12)
+    const [catagory,setCatagory]=useState("")
     const l = 12
     const mouseHover=(e)=>{
         
@@ -24,6 +25,10 @@ function Shopping(){
     const mouseEnter=(e)=>{
        e.target.style.backgroundColor="black"
        e.target.style.color="white"
+    }
+    const mouseLeave=(e)=>{
+        e.target.style.backgroundColor="white"
+        e.target.style.color="black"
     }
     const loadderFun=()=>{
         setisLoading(true)
@@ -36,17 +41,34 @@ function Shopping(){
     }
     useEffect(()=>{
         getProducts({
-            limit:limit
+            limit:limit,
+            catagory:catagory
         }).then((res)=>{
             setProducts(res)
         })
-    },[limit])
-    
-    console.log(products)
+    },[limit,catagory])
+
+   
+
+    const handleOnChange=(e)=>{
+        setCatagory(e.target.value)
+        
+     }
+    console.log(catagory)
     return (
         <>
         <Box  display={"flex"} width={"95%"} margin="auto" marginTop={"80px"} height="auto" >
-          <Box width={"25%"} height="100%" border={"1px solid black"}></Box>
+          <Box width={"25%"} height="100%" border={"1px solid black"}>
+           
+           <select onChange={handleOnChange} >
+            <option value="">Defalut</option>
+             <option value="men">Mens</option>
+             <option value="women">Womens</option>
+             <option value="jewelery">Jwellery</option>
+             <option value="electronics">Electronics</option>
+             <option value="footwear">Footwears</option>
+            </select> 
+          </Box>
 
           <Box width={"75%"} height="100%" >
              <Box display={"flex"}  justifyContent="space-between" width={"100%"} height="auto" >
@@ -74,15 +96,17 @@ function Shopping(){
                      color={"blackAlpha.700"}
                      onMouseEnter={onOpen}
                      onMouseLeave={onClose}
+                     
                     >
                        <Text fontSize={"xl"}>Default</Text> {isOpen ? <ChevronUpIcon /> : <ChevronDownIcon />}
                     </MenuButton>
-                    <MenuList  onMouseEnter={onOpen} onMouseLeave={onClose}  w={"250px"}>
+                    <MenuList 
+                     
+                     onMouseEnter={onOpen} onMouseLeave={onClose}  w={"250px"}>
                         <Container>
-                        <MenuItem>Default Sorting</MenuItem>
-                        <MenuItem>Sort by popularity</MenuItem>
-                        <MenuItem>Sort by average rating</MenuItem>
-                        <MenuItem>Sort by latest</MenuItem>
+                        <MenuItem >Default Sorting</MenuItem>
+                        <MenuItem  >Men Catagory</MenuItem>
+                        <MenuItem  >Women Catagory</MenuItem>
                         <MenuItem>Sort by price: low to high</MenuItem>
                         <MenuItem>Sort by price: high to low</MenuItem>
                         </Container>
@@ -120,10 +144,10 @@ function Shopping(){
                          </Box>
                           <Box lineHeight={"10"} display={"flex"} justifyContent="space-between" width={"40%"} margin="auto" >
                             <Text as='del'fontWeight={"bold"} color="blackAlpha.500" fontSize={"17px"}>
-                             {item.price}
+                            ₹{item.price}
                             </Text>
                             <Box as='span' fontWeight={"bold"} color='tomato' fontSize={"20px"}>
-                                {item.afterPrice}
+                            ₹{item.afterPrice}
                             </Box>
                         </Box>
                          </Box>
@@ -137,21 +161,22 @@ function Shopping(){
 
         <Button
         marginTop={"50px"}
-        p={7}
+        p={8}
         color="black"
         bg={"white"}
         borderRadius="0"
         border="1px solid black"
         onMouseEnter={mouseEnter}
-            onClick={loadderFun}
+        onMouseLeave={mouseLeave}
+        onClick={loadderFun}
         >
            {isLoading ?  <Spinner
             thickness='4px'
             speed='0.65s'
-            emptyColor='gray.200'
+            emptyColor='red.200'
             color='blue.500'
             size='xl'
-            />:<Text>Load More</Text>}
+            />:"Load More"}
         </Button>
         
         </>

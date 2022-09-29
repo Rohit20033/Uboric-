@@ -1,12 +1,15 @@
- import {Box, Button, ButtonGroup, Flex, Heading, Spacer,Image,Text} from "@chakra-ui/react"
+import {Box, Button, ButtonGroup, Flex, Heading, Spacer,Image,Text} from "@chakra-ui/react"
 import { Link } from "react-router-dom"
  import {LockIcon, SearchIcon,BeatLoader} from "@chakra-ui/icons"
  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser,faHeart,faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import DrawerFun from "./userDrawer"
 import { useState } from "react"
+import { useContext } from "react"
+import { AddCart } from "../authContext/cartContext"
 function Navbar(){
     const [drawer,isDrawerOpen]= useState(false)
+    const {total}=useContext(AddCart)
     return(
      <>
       <Box display={"flex"} justifyContent="center" alignItems={"center"} bg={"blackAlpha.900"} height="70px">
@@ -42,11 +45,11 @@ function Navbar(){
             <Button  bg='white'><FontAwesomeIcon icon={faHeart}  size="lg" /></Button>
              <Box>
               <Box position={"absolute"} >
-               <Button bg='white'><FontAwesomeIcon size="lg" icon={faCartShopping} /></Button>
+               <Button  bg='white'><FontAwesomeIcon size="lg" icon={faCartShopping} /></Button>
               </Box>
              <Box position={"relative"} style={{bottom:"5px",left:"30px"}} w="25px"  borderRadius={"40%"} border bg="tomato">
                 <Text color={"white"}>
-                    0
+                    {total}
                 </Text>
              </Box>
              </Box>
