@@ -17,7 +17,7 @@ function Navbar(){
       </Box>
 
 
-      <Flex borderBottomWidth='1px'  className="Navbar"  minWidth='max-content' height={"150px"} position="-webkit-sticky" alignItems='center' gap='2'>
+      <Flex borderBottomWidth='1px'  className="Navbar"  minWidth='max-content' height={"130px"} position="-webkit-sticky" alignItems='center' gap='2'>
         <Box  display={"flex"} w="22%" >
            <Box  w="40%"   >
 
