@@ -14,7 +14,7 @@ import { background } from "@chakra-ui/styled-system"
 import { useContext } from "react"
 import { AddCart } from "../authContext/cartContext"
 import CartModal from "../Component/cartModal"
-import { Spinner } from "@chakra-ui/react"
+import { Skeleton, Spinner } from "@chakra-ui/react"
 
 function SingleProducts(){
     const {id} = useParams()
@@ -24,12 +24,15 @@ function SingleProducts(){
     const [modal,isModalOpen]=useState(false)
     const [state,setState]=useState(false)
     const [modalData,setModalData]=useState({})
+    const [dataloading,setDataLoading]=useState(false)
     const navigate = useNavigate()
     useEffect(()=>{
-        axios.get(`http://localhost:3000/products?id=${id}`).then((res)=>
-            setSingleP(res.data)
+        setDataLoading(true)
+        axios.get(`https://uboric-api.herokuapp.com/products?id=${id}`).then((res)=>
+            setSingleP(res.data),
+            setDataLoading(false)
         )
-    },[])
+    },[id])
    const handleAddToCart=(item)=>{
     setModalData(item)
     setState(true)
@@ -42,12 +45,17 @@ function SingleProducts(){
    
         
    }
+
+   if(dataloading){
+    return
+ }
+ 
     const style={
         borderRadius:"0",
         backgroundColor:"black",
         color:"white"
      }
-     console.log(cartItem)
+     
     return(
         <>
         

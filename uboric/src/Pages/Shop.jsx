@@ -3,10 +3,10 @@ import { Button } from "@chakra-ui/button"
 import { useColorModeValue } from "@chakra-ui/color-mode"
 import { useDisclosure } from "@chakra-ui/hooks"
 import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons"
-import { Box, Container, SimpleGrid, Text } from "@chakra-ui/layout"
+import { Box, Container, SimpleGrid, Text,Stack } from "@chakra-ui/layout"
 import { Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/menu"
 import { useEffect } from "react"
-import {Spinner} from "@chakra-ui/react"
+import {Skeleton, Spinner} from "@chakra-ui/react"
 import { useState } from "react"
 import { Link } from "react-router-dom"
 import { getProducts } from "../apiReq/api"
@@ -18,6 +18,8 @@ function Shopping(){
     const [isLoading,setisLoading]= useState(false)
     const [limit,setlimit] =useState(12)
     const [catagory,setCatagory]=useState("")
+    const [isloading,setIsloading]=useState(false)
+    const [dataloading,setDataLoading]=useState(false)
     const l = 12
     const mouseHover=(e)=>{
         
@@ -39,21 +41,36 @@ function Shopping(){
        },3000)
        
     }
+    
     useEffect(()=>{
+        setDataLoading(true)
         getProducts({
             limit:limit,
-            catagory:catagory
+            catagory:catagory,
+           
         }).then((res)=>{
             setProducts(res)
+            setDataLoading(false)
         })
     },[limit,catagory])
-
+    
+    if(dataloading){
+        return(
+            <Stack >
+            <Skeleton height='200px' />
+            <Skeleton height='200px' />
+            <Skeleton height='200px' />
+            </Stack>
+        
+        )
+     }
    
 
     const handleOnChange=(e)=>{
         setCatagory(e.target.value)
         
      }
+     
     console.log(catagory)
     return (
         <>
@@ -120,8 +137,9 @@ function Shopping(){
                  {
                     products?.data?.map((item)=>(
                         <>
-                        
-                         <Link to={`/shop/${item.id}`}>
+                          
+                          
+                          <Link to={`/shop/${item.id}`}>
                          <Box  key={item.id}>
                          <Box
                             display='flex'
@@ -152,6 +170,7 @@ function Shopping(){
                         </Box>
                          </Box>
                          </Link>
+                         
                         </>
                     ))
                     }

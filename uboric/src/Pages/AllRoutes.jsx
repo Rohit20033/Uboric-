@@ -1,5 +1,6 @@
 
 import {Routes,Route} from "react-router-dom"
+import Private from "../Component/privatePage"
 import AboutUs from "./Aboutus"
 import Cart from "./cart"
 import Catagories from "./Categories"
@@ -15,10 +16,20 @@ function AllRoutes(){
        <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/aboutus" element={<AboutUs/>}/>
-        <Route path="/shop" element={<Shopping/>}/>
+        <Route path="/shop" element={
+       
+        <Shopping/>
+        
+        }
+        
+        />
         <Route path="/catagory" element={<Catagories/>}/>
         <Route path="/contactus" element={<ContactUs/>}/>
-        <Route path="/shop/:id" element={<SingleProducts/>}/>
+        <Route path="/shop/:id" element={
+         <Private>
+        <SingleProducts/>
+        </Private>
+        }/>
         <Route path="/cart" element={<Cart/>}/>
         <Route path="/checkout" element={<Checkout/>}/>
         
