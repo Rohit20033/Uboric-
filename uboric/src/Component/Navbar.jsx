@@ -17,8 +17,8 @@ function Navbar(){
       </Box>
 
 
-      <Flex borderBottomWidth='1px'  className="Navbar"  minWidth='max-content' height={"130px"} position="-webkit-sticky" alignItems='center' gap='2'>
-        <Box  display={"flex"} w="22%" >
+      <Flex  borderBottomWidth='1px'   className="Navbar"  minWidth='max-content' height={"130px"}  alignItems='center' gap='2'>
+        <Box   display={"flex"} w="22%" >
            <Box  w="40%"   >
 
            </Box>
@@ -32,11 +32,11 @@ function Navbar(){
         </Box>
         <Spacer />
          <Box   w="40%" justifyContent={"space-between"} display={"flex"}>
-         <Link to="/"><Text className="box" as='b' fontSize='21px'>Home</Text></Link>
-         <Link to="/aboutus"><Text className="box"  as='b' fontSize='21px'>About Us</Text></Link>
-         <Link to="/shop"><Text className="box" as='b' fontSize='21px'>Shop</Text></Link>
-         <Link to="/catagory"><Text className="box" as='b' fontSize='21px'>Categories</Text></Link>
-         <Link to="/contactus"><Text className="box" as='b' fontSize='21px'>Contact Us</Text></Link>
+         <Link to="/"><Text className="box" fontWeight={"600"} fontSize='21px'>Home</Text></Link>
+         <Link to="/aboutus"><Text className="box"  fontWeight={"600"} fontSize='21px'>About Us</Text></Link>
+         <Link to="/shop"><Text className="box" fontWeight={"600"} fontSize='21px'>Shop</Text></Link>
+         <Link to="/catagory"><Text className="box" fontWeight={"600"} fontSize='21px'>Categories</Text></Link>
+         <Link to="/contactus"><Text className="box" fontWeight={"600"} fontSize='21px'>Contact Us</Text></Link>
          </Box>
         <Spacer />
         <ButtonGroup marginRight={"50px"} width={"15%"} gap='2' >

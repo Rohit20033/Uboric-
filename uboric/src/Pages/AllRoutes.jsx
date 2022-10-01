@@ -7,7 +7,9 @@ import Catagories from "./Categories"
 import Checkout from "./checkout"
 import ContactUs from "./Contactus"
 import HomePage from "./HomePage"
+import PageNotFound from "./PagenotFound"
 import Shopping from "./Shop"
+import CreateAcc from "./Signup"
 import SingleProducts from "./singleProductPage"
 
 function AllRoutes(){
@@ -32,7 +34,8 @@ function AllRoutes(){
         }/>
         <Route path="/cart" element={<Cart/>}/>
         <Route path="/checkout" element={<Checkout/>}/>
-        
+        <Route path="/signup" element={<CreateAcc/>}/>
+        <Route path="*" element={<PageNotFound/>}/>
        </Routes>
     )
 }
