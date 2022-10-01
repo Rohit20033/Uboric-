@@ -6,7 +6,7 @@ import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons"
 import { Box, Container, SimpleGrid, Text,Stack } from "@chakra-ui/layout"
 import { Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/menu"
 import { useEffect } from "react"
-import {Skeleton, Spinner} from "@chakra-ui/react"
+import {Breadcrumb, BreadcrumbItem, BreadcrumbLink, Skeleton, Spinner} from "@chakra-ui/react"
 import { useState } from "react"
 import { Link } from "react-router-dom"
 import { getProducts } from "../apiReq/api"
@@ -74,17 +74,80 @@ function Shopping(){
     console.log(catagory)
     return (
         <>
-        <Box  display={"flex"} width={"95%"} margin="auto" marginTop={"80px"} height="auto" >
-          <Box width={"25%"} height="100%" border={"1px solid black"}>
-           
-           <select onChange={handleOnChange} >
-            <option value="">Defalut</option>
-             <option value="men">Mens</option>
-             <option value="women">Womens</option>
-             <option value="jewelery">Jwellery</option>
-             <option value="electronics">Electronics</option>
-             <option value="footwear">Footwears</option>
-            </select> 
+        <Box display={"flex"} width={"95%"} margin="auto" marginTop={"60px"} height="auto" >
+          <Box width={"25%"} height="auto" >
+            
+          <Menu size={"xl"} >
+            <MenuButton bg="white" variant="solid"  as={Button} rightIcon={<ChevronDownIcon w={"8"} h={"8"} />} width="100%" height={"50px"}>
+                <Box display={"flex"}>
+                    <Text fontSize={"23px"} as="b">
+                        Product Catagories
+                    </Text>
+                </Box>
+            </MenuButton>
+            <MenuList >
+                <MenuItem >
+                  <Text marginLeft="80px" paddingRight="110px" fontSize={"21px"}>
+                    Bathroom Accessories
+                  </Text>
+                </MenuItem>
+                <MenuItem>
+                <Text marginLeft="80px" paddingRight="110px" fontSize={"21px"}>
+                    Footwear
+                  </Text>
+                </MenuItem>
+                <MenuItem>
+                <Text marginLeft="80px" paddingRight="110px" fontSize={"21px"}>
+                   Men
+                  </Text>
+                </MenuItem>
+                <MenuItem>
+                <Text marginLeft="80px" paddingRight="110px" fontSize={"21px"}>
+                    Women
+                  </Text>
+                </MenuItem>
+                <MenuItem>
+                <Text marginLeft="80px" paddingRight="110px" fontSize={"21px"}>
+                    Electronics
+                  </Text>
+                </MenuItem>
+                <MenuItem>
+                <Text marginLeft="80px" paddingRight="110px" fontSize={"21px"}>
+                    Jweleries
+                  </Text>
+                </MenuItem>
+            </MenuList>
+          </Menu>
+              
+
+          <Menu size={"xl"} marginTop="30px" >
+            <MenuButton bg="white" variant="solid" paddingRight={"20px"}  as={Button} rightIcon={<ChevronDownIcon w={"8"} h={"8"} />} width="100%" height={"50px"}>
+                <Box display={"flex"}>
+                    <Text fontSize={"23px"} as="b">
+                        Prices
+                    </Text>
+                </Box>
+            </MenuButton>
+            <MenuList >
+                <MenuItem >
+                  <Text marginLeft="80px" paddingRight="110px" fontSize={"21px"}>
+                    1- 1449
+                  </Text>
+                </MenuItem>
+                <MenuItem>
+                <Text marginLeft="80px" paddingRight="110px" fontSize={"21px"}>
+                     500-999
+                  </Text>
+                </MenuItem>
+                <MenuItem>
+                <Text marginLeft="80px" paddingRight="110px" fontSize={"21px"}>
+                    1000+
+                  </Text>
+                </MenuItem>
+                
+                
+            </MenuList>
+          </Menu>
           </Box>
 
           <Box width={"75%"} height="100%" >
@@ -95,7 +158,20 @@ function Shopping(){
                    <Text fontSize={"5xl"} fontWeight="bold" as='samp'>Shop</Text>
                    </Box>
                    <Box display={"flex"}>
-                   <Text>BreadCrum</Text>
+                   <Text>
+
+                   <Breadcrumb>
+                    <BreadcrumbItem>
+                        <BreadcrumbLink href='/'>Home</BreadcrumbLink>
+                    </BreadcrumbItem>
+
+                    
+
+                    <BreadcrumbItem isCurrentPage>
+                        <BreadcrumbLink href='/shop'>Shop</BreadcrumbLink>
+                    </BreadcrumbItem>
+                    </Breadcrumb>
+                   </Text>
                    </Box>
                    
                 </Box>
@@ -121,7 +197,7 @@ function Shopping(){
                      
                      onMouseEnter={onOpen} onMouseLeave={onClose}  w={"250px"}>
                         <Container>
-                        <MenuItem >Default Sorting</MenuItem>
+                        <MenuItem >Default Sorting </MenuItem>
                         <MenuItem  >Men Catagory</MenuItem>
                         <MenuItem  >Women Catagory</MenuItem>
                         <MenuItem>Sort by price: low to high</MenuItem>
@@ -140,7 +216,7 @@ function Shopping(){
                           
                           
                           <Link to={`/shop/${item.id}`}>
-                         <Box  key={item.id}>
+                         <Box   key={item.id}>
                          <Box
                             display='flex'
                             alignItems='center'

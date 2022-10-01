@@ -30,7 +30,7 @@ import { useState } from 'react'
 import axios from 'axios'
 import { useContext } from 'react'
 import { AuthContext } from '../authContext/authContextProvider'
-import { Navigate } from 'react-router-dom'
+import { Navigate, useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 const initData={
 user_name:"",
@@ -43,7 +43,7 @@ function DrawerFun({isOpen,setIsOpen}) {
    const {isauth,login,logout}= useContext(AuthContext)
   const [signinData,setSigninData]=useState([])
   const [visible,isVisible]=useState(false)
-  
+  const navigate = useNavigate()
   
 const handleClick = () => setShow(!show)
   const btnRef = React.useRef()
@@ -56,12 +56,17 @@ const handleClick = () => setShow(!show)
    const {name,type,value}=e.target
     setFormState({...formState,[name]:value})
  }
-  
-  const handleSignin=()=>{
-     
+  useEffect(()=>{
     axios.get(`https://nordstromrohit.herokuapp.com/email`).then((res)=>
       setSigninData(res.data)
+
     )
+  })
+  console.log(signinData)
+  const handleSignin=()=>{
+     
+    
+    
     for(let i=0;i<signinData.length;i++){
         if(signinData[i].user_email===formState.user_email&&signinData[i].user_password===formState.user_password){
           
@@ -69,7 +74,8 @@ const handleClick = () => setShow(!show)
            
            setFormState(initData)
            isVisible(false)
-           break
+            break;
+           
         }
         else{
            isVisible(true)
@@ -183,6 +189,10 @@ const handleClick = () => setShow(!show)
               <Button onClick={handleSignin}  colorScheme={"white"} w={"full"} borderRadius="0" p={7} bg="black" color="white" marginTop={"30px"}>
                 
               Sign In
+              </Button>
+
+              <Button  onClick={()=>navigate("/signup")}  margin={"auto"} colorScheme={"white"} w={"50%"} borderRadius="0" p={7} bg="black" color="white" marginTop={"30px"} >
+                Create an account
               </Button>
            </Box>
           
