@@ -30,7 +30,7 @@ import { useState } from 'react'
 import axios from 'axios'
 import { useContext } from 'react'
 import { AuthContext } from '../authContext/authContextProvider'
-import { Navigate, useNavigate } from 'react-router-dom'
+import { Link, Navigate, useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 const initData={
 user_name:"",
@@ -141,7 +141,7 @@ const handleClick = () => setShow(!show)
                     <Alert status='error'>
                     <AlertIcon />
                     <AlertTitle>Wrong Credentials!</AlertTitle>
-                    <AlertDescription>Enter correct info</AlertDescription>
+                    <AlertDescription> <Link to="/signup"><Text textDecoration={"underline"}>Create An Account</Text></Link> </AlertDescription>
                     </Alert>
                   </Box>
                 : null

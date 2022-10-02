@@ -1,12 +1,13 @@
 import { AddIcon, CloseIcon } from "@chakra-ui/icons"
 import { Alert, AlertIcon, Box, Button, ButtonGroup, IconButton, Image, Stack, StackDivider, Text, VStack } from "@chakra-ui/react"
-import { useContext } from "react"
+import { useContext, useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { AddCart } from "../authContext/cartContext"
 
 function Cart(){
     const {cartItem,addToCart,totalPrice,deleteFromCart}=useContext(AddCart)
     const navigate = useNavigate()
+    const [count,setCount]=useState(0)
     console.log(cartItem)
     const style={
         height:'50px',
@@ -58,7 +59,7 @@ function Cart(){
 
                         <Box display={"flex"} marginTop={"50px"}>
                           <Button>-</Button>
-                          <Button></Button>
+                          <Button>{count}</Button>
                           <Button>+</Button>
                         </Box>
                      </Box>

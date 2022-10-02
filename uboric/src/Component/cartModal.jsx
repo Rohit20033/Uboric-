@@ -18,7 +18,7 @@ import {
 } from '@chakra-ui/react'
 import React from 'react'
 import { useContext } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Navigate, useNavigate } from 'react-router-dom'
 import { AddCart } from '../authContext/cartContext'
 
 
@@ -38,8 +38,11 @@ function CartModal({isOpen,isModalOpen,data}) {
   const onClose=()=>{
      isModalOpen(false)
   }
+  const handdleNavigate=()=>{
+    <Navigate to="/checkout" />
+  }
   const [overlay, setOverlay] = React.useState(<OverlayTwo />)
-
+   
   return (
     <>
        {/* ml='4'
@@ -126,6 +129,7 @@ function CartModal({isOpen,isModalOpen,data}) {
 
                    <Center marginTop={"10px"}>
                    <Button
+                   onClick={handdleNavigate}
                     size='xl'
                     height='68px'
                     width='90%'

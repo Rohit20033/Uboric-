@@ -45,7 +45,9 @@ function Navbar(){
             <Button  bg='white'><FontAwesomeIcon icon={faHeart}  size="lg" /></Button>
              <Box>
               <Box position={"absolute"} >
+               <Link to="/cart">
                <Button  bg='white'><FontAwesomeIcon size="lg" icon={faCartShopping} /></Button>
+               </Link>
               </Box>
              <Box position={"relative"} style={{bottom:"5px",left:"30px"}} w="25px"  borderRadius={"40%"} border bg="tomato">
                 <Text color={"white"}>
