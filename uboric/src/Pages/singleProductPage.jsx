@@ -6,7 +6,7 @@ import axios from "axios"
 import { identity } from "lodash"
 import { useEffect } from "react"
 import { useState } from "react"
-import { useNavigate, useParams } from "react-router-dom"
+import { Link, useNavigate, useParams } from "react-router-dom"
 import { Navigate } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser,faHeart,faCartShopping ,faPlus,faMinus} from '@fortawesome/free-solid-svg-icons'
@@ -18,7 +18,7 @@ import { Skeleton, Spinner } from "@chakra-ui/react"
 
 function SingleProducts(){
     const {id} = useParams()
-    const {addToCart,cartItem}= useContext(AddCart)
+    const {addToCart,cartItem,total}= useContext(AddCart)
     const [count,setCount]=useState(1)
     const [singleP,setSingleP]=useState([])
     const [modal,isModalOpen]=useState(false)
@@ -120,9 +120,13 @@ function SingleProducts(){
 
                            <CartModal isOpen={modal} isModalOpen={isModalOpen} data={modalData}/>
                         </Button>
-                        <Button style={style} p={9}  colorScheme='white' >
+                         
+                            <Link to="/checkout">
+                        <Button disabled={total==0} style={style} p={9}  colorScheme='white' >
                             Buy Now
                         </Button>
+                        </Link>
+                         
                          
                         </Stack>
 

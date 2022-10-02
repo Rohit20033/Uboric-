@@ -1,7 +1,8 @@
-import { Box, Button, ButtonGroup, Container, SimpleGrid ,Text} from "@chakra-ui/react"
+import { Box, Button, ButtonGroup, Container, Heading, SimpleGrid ,Text, VStack} from "@chakra-ui/react"
 
 import {ArrowForwardIcon} from "@chakra-ui/icons"
 import {useEffect,useState} from "react"
+import { Link, useNavigate } from "react-router-dom"
 
 const images=["https://images.unsplash.com/photo-1589512574123-2ba3b33bf066?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z29sZCUyMHJpbmd8ZW58MHx8MHx8&w=1000&q=80",
 "https://media.istockphoto.com/photos/set-of-household-kitchen-technics-on-yellow-background-set-of-in-the-picture-id1025966854?k=20&m=1025966854&s=612x612&w=0&h=_53ryTz37dCZrSzowZw4Smhwjg25v-peYA82H3kwLJM=",
@@ -12,6 +13,11 @@ const images=["https://images.unsplash.com/photo-1589512574123-2ba3b33bf066?ixli
 
 function HomePage(){
     const [currentIndex,setCurrentIndex]=useState(0)
+    const navigate = useNavigate()
+
+    const handleNavigate=()=>{
+        navigate("/shop")
+    }
     const style={
         
      display:'flex',
@@ -53,7 +59,9 @@ function HomePage(){
     mb={2}
   >
   
-      <Box width={"12%"} borderRadius="0" colorScheme='white' variant={"solid"} p={8} bg='black' color="white"> <Text fontSize={"20px"}>Shop Now</Text> </Box>
+  
+     <Box onClick={handleNavigate} width={"12%"} borderRadius="0" colorScheme='white' variant={"solid"} p={8} bg='black' color="white"> <Text fontSize={"20px"}>Shop Now</Text> </Box>
+     
     
   </Box>
 
@@ -81,6 +89,20 @@ function HomePage(){
         </Box>
     </Box>
    </SimpleGrid>
+
+   <Container maxWidth={"90%"} marginTop="100px">
+   <VStack alignItems={"center"}>
+       <Heading fontSize={"38px"}>
+       The Ultimate Domestic Online Shopping Experience Platform in India
+       </Heading>
+     </VStack>
+       <VStack marginTop={"50px"}>
+         <Text textAlign={"justify"} color="gray" lineHeight={10} fontSize={"23px"} >
+         Online shopping with Uboric is quick, convenient and trouble-free. You can shop for the desired product right from the comfort of your home and get them delivered straight to your doorstep. Uboric offers you the chance to choose top branded products sitting in the comfort of your homes and just clicking on your requirements to get it delivered at your doorstep. Your search for the latest trending variety of unique products ends right here. A wide range of international products from global brands are available at your fingertips. We provide you with a world-class online shopping experience, along with superior service, to suit all your specific requirements. Our products are very reasonably priced and are not easily available elsewhere. Our high-end technology-based systems, combined with a human approach, ensure that you have an amazing and blissful online shopping experience with us. Our emphasis on customer delight drives every activity we undertake to provide you an ultimate, hassle-free and pleasant shopping experience. Our diverse categories of products comprise of fashion & jewellery, mobiles and tablets, home and furniture, electronics, health care and supplements, sports and fitness, beauty and perfumes. We offer almost every variety of product that your heart desires. Just Go Ahead and Explore the magical world of online shopping with Uboric! 24×7 Customer Care: For all your queries and concerns regarding your shopping orders.
+
+         </Text>
+       </VStack>
+   </Container>
    
 </>
     )
